@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 
 const corsOptions = {
     // connect to frontend
-    origin: ["http://localhost:5173"],
+    origin: ["https://mern-user-authentication-site.onrender.com"],
     allowHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept"],
     credentials: true,
     methods: ['GET', 'POST'],
