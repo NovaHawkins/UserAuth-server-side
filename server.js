@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 
 const corsOptions = {
     // connect to frontend
-    origin: ["https://api.render.com/deploy/srv-claibfrbmhcs738r4vng?key=u5-ovdTEOoM"],
+    origin: ["http://localhost:5173"],
     allowHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept"],
     credentials: true,
     methods: ['GET', 'POST'],
